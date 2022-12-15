@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Horarios</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="v">
+
+        <ul class="menu">
+
+            <li><a href="index.html">Inicio</a></li>
+
+            <li><a href="horario.html" rel="next">Horário</a></li>
+
+            <li><a href="programa.html">Programação</a></li>
+
+            <li class="topico">Trabalhos 
+
+                <ul>
+
+                    <li><a href="pais.html">Do dia dos Pais</a></li>
+
+                    <li><a href="crianca.html">Do dia das crianças</a></li>
+
+                    <li><a href="maes.html">Do dia das mães</a></li>
+
+                    <li><a href="copa.html">Da Copa do Mundo</a></li>
+
+                    <li><a href="natal.html">Do Natal</a></li>
+
+                </ul>
+
+            </li>
+
+            <li><a href="matrícula.html">Matrícula</a></li>
+
+        </ul>
+
+    </nav>
+    <main>
+   <form>
+    <fieldset>
+
+        <legend>O quanto você esta satisfeite com a escola</legend>
+        <label>De 0 a 10</label><br><input type="range" min="0" max="10">
+        <br>
+       <label>Você entregou seu comprovante de residência</label>
+            <br>
+            <input type="radio" name="quem" id="idS"><label for="idS">Sim</label>
+            <br>
+            <input type="radio" name="quem" id="idN"><label for="idN">Não</label>
+            <br>
+             <p><label for="idNome">Nome do responsável:</label><input type="text" name="nNome" id="idNome" size="40"
+                    placeholder="Nome Completo"></p>
+            <p><label for="idNasc">Data de nascimento:</label><input type="date" name="nNascimento" id="idNasc"></p>
+            
+              
+
+                <p><label for="idEmail">email:</label><input type="email" name="nEmail" id="idEmail"
+                        placeholder="exemplo@gmail.com"></p>
+
+<p><label for="idcSenha">Senha:</label><input type="password" name="ncSenha" id="idcSenha"></p>
+<p><label for="idNome2">Nome de alune:</label><input type="text" name="nNome2" id="idNome2" size="40"
+                    placeholder="Nome Completo"></p>
+                <p><label for="idNum">Idade:</label><input type="num" min="0" max="5" name="nValor" id="idNum"
+                        placeholder="idade do alune"></p>
+
+                <label for="idopt">Serie:</label>
+                <select name="opt" id="idopt">
+
+                    <option value="p1">1° período</option>
+
+                    <option value="p2">2° período</option>
+
+                    <option value="p3">3° período</option>
+
+                    
+                </select>
+                <br>
+
+            <p><label for="idFat">Fatos sobre seu filhe que precisamos saber (Ex: alergias etc) </label><br><textarea type="text" cols="70" rows="5" name="nFatos" id="idFat" placeholder="Seja detalhado "></textarea></p>
+
+    </fieldset>
+    </form>
+     </main>
+</body>
+
+</html>
